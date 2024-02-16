@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 75px;
+  background: #f0f0f0;
+  z-index: 999;
+
+}
+.logo{
+    color: #5163E5;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 250px;
+    text-decoration: none;
+}
+.navbar{
+    color: #5163E5;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 150px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #5163E5;
+    margin-left: 100px;
+    transition: 0.3s ease;
+}
+.navbar a:hover{
+    color: black;
+}
+.First-sec{
+    background: url("background.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.First-sec .conttent-1{
+    position: relative;
+    top: 250px;
+    margin-left: 250px;
+    font-size: 30px;
+    z-index: 0;
+}
+span{
+    color: #f0f0f0;
+    font-weight: 700;
+}
+h1{
+    color: #5163E5;
+    font-weight: 700;
+}
+
+.First-sec button {
+    border: 2px solid;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color:#5163E5;
+    transition: 0.7s ease;
+    color: #f0f0f0;
+ }
+  
+.First-sec button:hover {
+    transform: scale(1.1);
+}
+.conttent-1 .social-media{
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conttent-1 .social-media a{
+    width: 45px;
+    color: #f0f0f0;
+    display: block;
+    justify-content: center;
+    transition: 0.2s ease;
+
+}
+.conttent-1 .social-media a i{
+    margin-left: 7px;
+    font-size: 30px;
+    transition: 0.7s ease;
+}
+.conttent-1 .social-media a:hover{
+    color: #f00;
+    transform: scale(1.1);
+} 
+.Services{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 8%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #5163E5;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #ffff;
+    width: 21.5em;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #5163E5;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #5163E5;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.Project{
+    width: 100%;
+    margin-top: 30px;
+    min-height: 100vh;
+    background: #000016;
+}
+.card:hover .image{
+    opacity: 0.9;
+}
+.image{
+    font-size: 8em;
+    text-align: center;
+}
+.Contact{
+    width: 100%;
+    min-height: 100vh;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    color: #5163E5;
+    font-size: 2.2rem;
+    font-weight: 800;
+ 
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background: #000016;
+}
+footer p{
+    color: #f0f0f0;
+    font-size: 25px;
+}
+footer span{
+    color: #5163E5;
+}
+
+footer .social-media{
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .social-media a{
+    width: 45px;
+    color: #f0f0f0;
+    display: block;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+footer .social-media a i{
+    font-size: 30px;
+    transition: 0.7s ease;
+}
+footer .social-media a:hover{
+    color: #f00;
+    transform: scale(1.1);
+}
